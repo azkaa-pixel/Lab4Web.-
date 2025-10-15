@@ -498,9 +498,6 @@ Kode tersebut digunakan untuk menambahkan dua bagian artikel (featurette) di hal
       </section>
 ```
 
-#### ```- hasil```
-![foto]()
-
 #### ```- penjelasan``` :
 
 ### 2.
@@ -525,9 +522,6 @@ Kode tersebut digunakan untuk menambahkan dua bagian artikel (featurette) di hal
         </form>
       </section>
 ```
-
-#### ```- hasil```
-![foto]()
 
 #### ```- penjelasan``` :
 
