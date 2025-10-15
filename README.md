@@ -467,7 +467,7 @@ Kode tersebut digunakan untuk menambahkan dua bagian artikel (featurette) di hal
 2.	Tambahkan layout untuk menu Contact 
 => yang berisi form isian: nama, email, message, dll 
 
-### 1.
+### 1. tambahkan codingan ini 
 ```html
 <section id="about">
         <h2>Tentang Kami</h2>
@@ -499,8 +499,19 @@ Kode tersebut digunakan untuk menambahkan dua bagian artikel (featurette) di hal
 ```
 
 #### ```- penjelasan``` :
+- ```<section id="about">``` menandai area khusus yang berisi informasi tentang website.
 
-### 2.
+- ```<h2>Tentang Kami</h2>``` menampilkan judul bagian.
+
+- ```<p>``` berisi teks deskripsi singkat tentang tujuan dan isi website.
+
+- ```<div class="row">``` membuat baris yang berisi dua kotak portofolio.
+
+- Setiap ```<div class="box">``` menampilkan satu project dengan gambar (```<img>```), judul (```<h3>```), dan teks deskripsi (```<p>```).
+
+Bagian ini berfungsi untuk memperkenalkan website dan menampilkan contoh karya atau project dalam bentuk portofolio.
+
+### 2.tambahkan kodingan ini
 ```html
       <section id="kontak">
         <h2>Hubungi Kami</h2>
@@ -524,4 +535,21 @@ Kode tersebut digunakan untuk menambahkan dua bagian artikel (featurette) di hal
 ```
 
 #### ```- penjelasan``` :
+- ```<section id="kontak">``` menandai area khusus untuk form kontak.
 
+- ```<h2>Hubungi Kami</h2>``` adalah judul bagian kontak.
+
+- ```<p>``` memberi penjelasan singkat agar pengunjung tahu tujuan form ini.
+
+- ```<form>``` berisi kolom isian yang digunakan pengunjung untuk mengirim pesan.
+
+        - ```<label for="nama">``` dan ```<input type="text">``` membuat kolom untuk menulis nama.
+        
+        - ```<label for="email">``` dan ```<input type="email">``` membuat kolom untuk menulis alamat email.
+        
+        - ```<label for="pesan">``` dan ```<textarea>``` membuat area lebih besar untuk menulis pesan.
+        
+        - ```<button type="submit">Kirim Pesan</button>``` membuat tombol untuk mengirim form.
+  
+        Bagian ini berfungsi agar pengunjung bisa menghubungi atau mengirim pesan melalui form yang tersedia di halaman web.
+        
