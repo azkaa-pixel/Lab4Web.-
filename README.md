@@ -469,7 +469,33 @@ Kode tersebut digunakan untuk menambahkan dua bagian artikel (featurette) di hal
 
 ### 1.
 ```html
-
+<section id="about">
+        <h2>Tentang Kami</h2>
+        <p>
+          Website ini dibuat untuk menampilkan contoh layout sederhana dengan
+          HTML dan CSS. Halaman ini berisi deskripsi singkat serta portofolio.
+        </p>
+        <div class="row">
+          <div class="box">
+            <img
+              src="https://dummyimage.com/150/3e73e6/fff.png"
+              class="image-circle"
+              alt="Project 1"
+            />
+            <h3>Project 1</h3>
+            <p>Deskripsi singkat tentang project pertama.</p>
+          </div>
+          <div class="box">
+            <img
+              src="https://dummyimage.com/150/71e6d4/fff.png"
+              class="image-circle"
+              alt="Project 2"
+            />
+            <h3>Project 2</h3>
+            <p>Deskripsi singkat tentang project kedua.</p>
+          </div>
+        </div>
+      </section>
 ```
 
 #### ```- hasil```
@@ -479,7 +505,25 @@ Kode tersebut digunakan untuk menambahkan dua bagian artikel (featurette) di hal
 
 ### 2.
 ```html
+      <section id="kontak">
+        <h2>Hubungi Kami</h2>
+        <p>
+          Silakan isi form di bawah ini untuk mengirim pesan atau pertanyaan.
+        </p>
 
+        <form>
+          <label for="nama">Nama:</label>
+          <input type="text" id="nama" name="nama" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="pesan">Pesan:</label>
+          <textarea id="pesan" name="pesan" rows="5" required></textarea>
+
+          <button type="submit">Kirim Pesan</button>
+        </form>
+      </section>
 ```
 
 #### ```- hasil```
