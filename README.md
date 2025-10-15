@@ -53,7 +53,7 @@ Selanjutnya tambahkan deklarasi CSS pada head untuk membuat float element, seper
 ```
 
 #### ```- hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/Lab4Web.-/blob/bf07d2f2ceef39aa6f48ebcc2d4ba120777e35cb/praktikum%204/1.jpeg)
 
 #### ```- penjelasan``` :
 
@@ -78,7 +78,7 @@ Tambahkan element div lainnya seteleah div3 seperti berikut.
 } 
 ```
 #### ```- hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/Lab4Web.-/blob/bf07d2f2ceef39aa6f48ebcc2d4ba120777e35cb/praktikum%204/2.jpeg)
 
 #### ```- penjelasan``` :
 
@@ -112,11 +112,12 @@ Tambahkan element div lainnya seteleah div3 seperti berikut.
 ```
 
 #### ```- hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/Lab4Web.-/blob/bf07d2f2ceef39aa6f48ebcc2d4ba120777e35cb/praktikum%204/3.jpeg)
 
 # Membuat Layout Sederhana  
 
 Buat folder baru dengan nama lab4_layout, kemudian buatlah file baru didalamnya dengan nama home.html, dan file css dengan nama style.css. 
+
 ```html
 <!DOCTYPE html> 
 <html lang="en"> 
@@ -154,8 +155,7 @@ Buat folder baru dengan nama lab4_layout, kemudian buatlah file baru didalamnya 
     <p>&copy; 2021 - Universitas Pelita Bangsa</p> </footer> 
 ```
 #### ```- hasil```
-![foto]()
-
+![foto](https://github.com/azkaa-pixel/Lab4Web.-/blob/bf07d2f2ceef39aa6f48ebcc2d4ba120777e35cb/praktikum%204/4.jpeg)
 
 ### Kemudian tambahkan kode CSS untuk membuat layoutnya.  
 
@@ -186,7 +186,7 @@ header h1 {
 ```
 
 #### ```- hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/Lab4Web.-/blob/bf07d2f2ceef39aa6f48ebcc2d4ba120777e35cb/praktikum%204/5.jpeg)
 
 #### ```- penjelasan``` :
 
