@@ -543,13 +543,13 @@ Bagian ini berfungsi untuk memperkenalkan website dan menampilkan contoh karya a
 
 - ```<form>``` berisi kolom isian yang digunakan pengunjung untuk mengirim pesan.
 
-        - ```<label for="nama">``` dan ```<input type="text">``` membuat kolom untuk menulis nama.
+- ```<label for="nama">``` dan ```<input type="text">``` membuat kolom untuk menulis nama.
         
-        - ```<label for="email">``` dan ```<input type="email">``` membuat kolom untuk menulis alamat email.
+- ```<label for="email">``` dan ```<input type="email">``` membuat kolom untuk menulis alamat email.
         
-        - ```<label for="pesan">``` dan ```<textarea>``` membuat area lebih besar untuk menulis pesan.
+- ```<label for="pesan">``` dan ```<textarea>``` membuat area lebih besar untuk menulis pesan.
         
-        - ```<button type="submit">Kirim Pesan</button>``` membuat tombol untuk mengirim form.
+- ```<button type="submit">Kirim Pesan</button>``` membuat tombol untuk mengirim form.
   
-        Bagian ini berfungsi agar pengunjung bisa menghubungi atau mengirim pesan melalui form yang tersedia di halaman web.
+Bagian ini berfungsi agar pengunjung bisa menghubungi atau mengirim pesan melalui form yang tersedia di halaman web.
         
