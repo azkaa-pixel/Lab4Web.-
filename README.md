@@ -202,9 +202,6 @@ Kemudian selanjutnya mengatur navigasi.
     background-color: #2b83ea; } 
 ```
 
-#### ```- hasil```
-![foto]()
-
 #### ```- penjelasan``` :
 
 ### Membuat Hero Panel 
@@ -228,7 +225,7 @@ Selanjutnya membuat hero panel. Tambahkan kode HTML dan CSS seperti berikut.
 ```
 
 #### ```- hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/Lab4Web.-/blob/f90d1dcaccc69a26fb6fe2fdab22f8f104c184d8/praktikum%204/6.jpeg)
 
 #### ```- penjelasan``` :
 
@@ -307,11 +304,11 @@ Selanjutnya mengatur tampilan footer. Tambahkan CSS untuk footer.
 ```
 
 #### ```- hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/Lab4Web.-/blob/f90d1dcaccc69a26fb6fe2fdab22f8f104c184d8/praktikum%204/7.jpeg)
 
 #### ```- penjelasan``` :
 
-### 11. Menambahkan Elemen lainnya pada Main Content  
+### Menambahkan Elemen lainnya pada Main Content  
 
 ```html
 <section id="main"> 
@@ -368,7 +365,7 @@ Selanjutnya mengatur tampilan footer. Tambahkan CSS untuk footer.
 ```
 
 #### ```- hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/Lab4Web.-/blob/f90d1dcaccc69a26fb6fe2fdab22f8f104c184d8/praktikum%204/8.jpeg)
 
 #### ```- penjelasan``` :
 
@@ -415,12 +412,18 @@ Selanjutnya membuat content artikel. Tambahkan HTML berikut pada main content.
 ```
 
 #### ```- hasil```
-![foto]()
+![foto](https://github.com/azkaa-pixel/Lab4Web.-/blob/f90d1dcaccc69a26fb6fe2fdab22f8f104c184d8/praktikum%204/9.jpeg)
 
 #### ```- penjelasan``` :
 
-### 1. 
+# Pertanyaan dan Tugas 
 
+1.	Tambahkan Layout untuk menu About 
+=> buat single layout yang berisi deskripsi, portfolio, dll 
+2.	Tambahkan layout untuk menu Contact 
+=> yang berisi form isian: nama, email, message, dll 
+
+### 1.
 ```html
 
 ```
@@ -430,8 +433,7 @@ Selanjutnya membuat content artikel. Tambahkan HTML berikut pada main content.
 
 #### ```- penjelasan``` :
 
-### 1. 
-
+### 2.
 ```html
 
 ```
@@ -440,27 +442,4 @@ Selanjutnya membuat content artikel. Tambahkan HTML berikut pada main content.
 ![foto]()
 
 #### ```- penjelasan``` :
-
-### 1. 
-
-```html
-
-```
-
-#### ```- hasil```
-![foto]()
-
-#### ```- penjelasan``` :
-
-### 1. 
-
-```html
-
-```
-
-#### ```- hasil```
-![foto]()
-
-#### ```- penjelasan``` :
-
 
