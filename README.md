@@ -36,6 +36,7 @@ Kemudian tambahkan kode untuk membuat box element dengan tag div seperti berikut
 </section> 
 ```
 #### ```- penjelasan``` : 
+Kode tersebut berfungsi untuk membuat satu bagian halaman web menggunakan tag ```<section>``` yang berisi tiga kotak ```<div>``` bernama ```div1```, ```div2```, dan ```div3```. Setiap kotak bisa diatur tampilannya secara terpisah menggunakan class pada CSS, misalnya untuk memberi warna, ukuran, atau posisi yang berbeda.
 
 ### 3. CSS Float Property 
 Selanjutnya tambahkan deklarasi CSS pada head untuk membuat float element, seperti berikut. 
@@ -56,6 +57,7 @@ Selanjutnya tambahkan deklarasi CSS pada head untuk membuat float element, seper
 ![foto](https://github.com/azkaa-pixel/Lab4Web.-/blob/bf07d2f2ceef39aa6f48ebcc2d4ba120777e35cb/praktikum%204/1.jpeg)
 
 #### ```- penjelasan``` :
+Kode tersebut digunakan untuk mengatur tampilan tiga elemen ```<div>```. Semua ```<div>``` diberi gaya agar posisinya sejajar ke kiri ```(float: left)``` dan memiliki jarak dalam kotak ```(padding: 10px)```. Lalu setiap class diberi warna berbeda: .div1 berwarna merah, .div2 berwarna kuning, dan .div3 berwarna hijau.
 
 ### 4. Mengatur Clearfix Element 
 Clearfix digunakan untuk mengatur element setelah float element. Property clear digunakan untuk mengaturnya. 
@@ -81,6 +83,7 @@ Tambahkan element div lainnya seteleah div3 seperti berikut.
 ![foto](https://github.com/azkaa-pixel/Lab4Web.-/blob/bf07d2f2ceef39aa6f48ebcc2d4ba120777e35cb/praktikum%204/2.jpeg)
 
 #### ```- penjelasan``` :
+Kode tersebut mengatur tampilan untuk elemen dengan class ```.div4```. Warna latar belakangnya dibuat biru (```background-color: blue```), lalu diberi properti ```clear: left``` agar posisinya tidak sejajar dengan elemen sebelumnya yang menggunakan ```float: left```, melainkan tampil di bawahnya. Properti float: none digunakan untuk menonaktifkan efek float sehingga kotak ```.div4``` berada di baris baru.
 
 ### Lakukan eksperimen terhadap penggunaan property clear dengan nilai lainnya (left, both, right), dan amati perubahannya.  
 
@@ -189,6 +192,15 @@ header h1 {
 ![foto](https://github.com/azkaa-pixel/Lab4Web.-/blob/bf07d2f2ceef39aa6f48ebcc2d4ba120777e35cb/praktikum%204/5.jpeg)
 
 #### ```- penjelasan``` :
+- ```@import``` digunakan untuk mengambil dua jenis font dari Google Fonts (```Open Sans``` dan ```Open Sans Condensed```) agar teks terlihat lebih menarik.
+  
+- Bagian ```* { margin: 0; padding: 0; }``` disebut reset CSS, fungsinya menghapus jarak bawaan dari semua elemen supaya tata letak lebih konsisten.
+  
+- ```body``` mengatur tampilan dasar seluruh halaman, seperti tinggi baris (```line-height```), ukuran huruf (```font-size```), jenis font, dan warna teks.
+  
+- ```#container``` berfungsi sebagai pembungkus utama seluruh isi halaman dengan lebar tetap (```width: 980px```), berada di tengah (```margin: 0 auto```), dan diberi efek bayangan halus (```box-shadow```).
+  
+- ```header``` dan ```header h1``` mengatur bagian kepala halaman, memberi jarak dalam (```padding``` dan ```margin```) serta memberi warna abu-abu muda pada teks judul.
 
 ### Membuat Navigasi  
 Kemudian selanjutnya mengatur navigasi. 
@@ -203,6 +215,11 @@ Kemudian selanjutnya mengatur navigasi.
 ```
 
 #### ```- penjelasan``` :
+- ```nav``` dibuat tampil sebagai blok penuh (```display: block```) dan diberi warna latar biru tua (```background-color: #1f5faa```).
+  
+- ```nav a``` mengatur tampilan setiap tautan di dalam navbar, seperti memberi jarak (```padding: 15px 30px```), menampilkan secara horizontal (```display: inline-block```), memberi warna teks putih, ukuran huruf 14px, huruf tebal (```font-weight: bold```), dan menghilangkan garis bawah (```text-decoration: none```).
+  
+- ```nav a.active, nav a:hover``` memberi efek saat tautan sedang aktif atau disorot kursor, yaitu mengubah warna latarnya menjadi biru lebih terang (```#2b83ea```) agar terlihat interaktif.
 
 ### Membuat Hero Panel 
 Selanjutnya membuat hero panel. Tambahkan kode HTML dan CSS seperti berikut. 
@@ -228,6 +245,11 @@ Selanjutnya membuat hero panel. Tambahkan kode HTML dan CSS seperti berikut.
 ![foto](https://github.com/azkaa-pixel/Lab4Web.-/blob/f90d1dcaccc69a26fb6fe2fdab22f8f104c184d8/praktikum%204/6.jpeg)
 
 #### ```- penjelasan``` :
+- ```#hero`` mengatur seluruh area hero dengan warna latar abu-abu muda (```background-color: #e4e4e5```), memberi jarak dalam (```padding: 50px 20px```), dan jarak bawah (```margin-bottom: 20px```) agar terpisah dari bagian lain.
+
+- ```#hero h1``` mengatur judul di dalam hero agar lebih menonjol, dengan jarak bawah (margin-bottom: 20px) dan ukuran huruf besar (font-size: 35px).
+
+- #hero p mengatur paragraf deskripsi di dalam hero dengan jarak bawah (```margin-bottom: 20px```), ukuran huruf sedang (```font-size: 18px```), dan tinggi baris (```line-height: 25px```) supaya teks mudah dibaca.
 
 ### Mengatur Layout Main dan Sidebar 
 Selanjutnya mengatur main content dan sidebar, tambahkan CSS float.  
@@ -243,6 +265,11 @@ Selanjutnya mengatur main content dan sidebar, tambahkan CSS float.
 ```
 
 #### ```- penjelasan``` :
+- ```#wrapper``` menjadi pembungkus utama untuk bagian konten dan sidebar, dengan ```margin: 0``` agar tidak ada jarak luar.
+
+- ```#main``` adalah area konten utama, diletakkan di sebelah kiri dengan ```float: left```, lebar 640px, dan diberi jarak dalam (```padding: 20px```) agar isi teks tidak menempel ke tepi.
+
+- #sidebar adalah area samping (sidebar) yang juga diletakkan di kiri menggunakan float: left, memiliki lebar 260px, dan jarak dalam (padding: 20px) untuk memberi ruang di sekitar isi sidebar.
 
 ### Membuat Sidebar Widget 
 Kemudian selanjutnya menambahkan element lain dalam sidebar.  
@@ -293,6 +320,20 @@ Kemudian selanjutnya menambahkan element lain dalam sidebar.
 ```
 
 #### ```- penjelasan``` :
+- ```.widget-box``` memberi bingkai tipis dan jarak bawah antar widget.
+
+- ```.widget-box .title`` membuat judul berlatar biru dengan teks putih.
+
+- ```.widget-box ul``` menghapus tanda bullet pada daftar.
+
+- ```.widget-box li``` menambahkan garis pemisah antar item.
+
+- ```.widget-box li``` a menata tautan dengan jarak, warna abu tua, dan tanpa garis bawah.
+
+- ```.widget-box li:hover a``` memberi efek abu-abu saat kursor diarahkan.
+
+- ```.widget-box p``` mengatur teks paragraf dengan jarak dan spasi agar mudah dibaca.
+
 
 ### Mengatur Footer 
 Selanjutnya mengatur tampilan footer. Tambahkan CSS untuk footer. 
@@ -307,6 +348,7 @@ Selanjutnya mengatur tampilan footer. Tambahkan CSS untuk footer.
 ![foto](https://github.com/azkaa-pixel/Lab4Web.-/blob/f90d1dcaccc69a26fb6fe2fdab22f8f104c184d8/praktikum%204/7.jpeg)
 
 #### ```- penjelasan``` :
+Kode tersebut digunakan untuk mengatur tampilan bagian footer pada halaman web. Footer diberi warna latar hitam keabu-abuan (```#1d1d1d```), teks berwarna abu muda (```#eee```), serta jarak dalam (```padding: 20px```). Properti ```clear: both``` digunakan agar footer tampil di bawah semua elemen yang menggunakan ```float```.
 
 ### Menambahkan Elemen lainnya pada Main Content  
 
@@ -368,9 +410,10 @@ Selanjutnya mengatur tampilan footer. Tambahkan CSS untuk footer.
 ![foto](https://github.com/azkaa-pixel/Lab4Web.-/blob/f90d1dcaccc69a26fb6fe2fdab22f8f104c184d8/praktikum%204/8.jpeg)
 
 #### ```- penjelasan``` :
+Kode tersebut digunakan untuk menampilkan tiga kotak konten utama di dalam bagian <```section id="main"```>.
+Setiap kotak berada di dalam <```div class="box"```> yang berisi gambar berbentuk lingkaran, judul (h3), paragraf teks penjelasan, dan tombol tautan bertuliskan “View detail”. Ketiga kotak ini biasanya ditampilkan berdampingan secara horizontal menggunakan CSS agar terlihat seperti tiga fitur utama di halaman web.
 
 ### Menambahkan Content Artikel 
-
 Selanjutnya membuat content artikel. Tambahkan HTML berikut pada main content. 
 ```html
 <hr class="divider" /> 
@@ -415,6 +458,7 @@ Selanjutnya membuat content artikel. Tambahkan HTML berikut pada main content.
 ![foto](https://github.com/azkaa-pixel/Lab4Web.-/blob/f90d1dcaccc69a26fb6fe2fdab22f8f104c184d8/praktikum%204/9.jpeg)
 
 #### ```- penjelasan``` :
+Kode tersebut digunakan untuk menambahkan dua bagian artikel (featurette) di halaman web. Setiap artikel berada dalam tag ```<article class="entry">``` dan berisi judul (h2), gambar, serta teks paragraf sebagai isi artikel. Tag ```<hr class="divider" />``` berfungsi sebagai garis pemisah antarartikel. Gambar pada artikel kedua diberi class ```right-img```, yang biasanya digunakan untuk meletakkan gambar di sisi kanan teks menggunakan CSS.
 
 # Pertanyaan dan Tugas 
 
